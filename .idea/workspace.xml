@@ -5,6 +5,24 @@
       <artifact name="web_demo:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f9c48f87-3db0-4ffd-a80f-563dba57186d" name="Default" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -320,6 +338,7 @@
       <workItem from="1604410380689" duration="401000" />
       <workItem from="1643854814826" duration="282000" />
       <workItem from="1643855119328" duration="1706000" />
+      <workItem from="1643872872891" duration="1240000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目提交">
       <created>1575274304059</created>
@@ -482,11 +501,29 @@
       <option name="project" value="LOCAL" />
       <updated>1643855304979</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="加入添加用户功能">
+      <created>1643876393479</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1643876393479</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -509,7 +546,8 @@
     <MESSAGE value="加入sonar配置文件" />
     <MESSAGE value="加入代码审查的脚本" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="加入添加用户功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入添加用户功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="0" key="#Project_Structure" timestamp="1643854851238">
@@ -580,10 +618,10 @@
       <screen x="0" y="0" width="1234" height="775" />
     </state>
     <state x="119" y="32" key="SettingsEditor/0.0.1234.775@0.0.1234.775" timestamp="1643855145074" />
-    <state x="210" y="120" key="Vcs.Push.Dialog.v2" timestamp="1643855336533">
+    <state x="210" y="120" key="Vcs.Push.Dialog.v2" timestamp="1643876441077">
       <screen x="0" y="0" width="1234" height="775" />
     </state>
-    <state x="210" y="120" key="Vcs.Push.Dialog.v2/0.0.1234.775@0.0.1234.775" timestamp="1643855336533" />
+    <state x="210" y="120" key="Vcs.Push.Dialog.v2/0.0.1234.775@0.0.1234.775" timestamp="1643876441077" />
     <state x="429" y="248" key="git4idea.rebase.GitRebaseDialog" timestamp="1643855085729">
       <screen x="0" y="0" width="1234" height="775" />
     </state>
@@ -592,5 +630,9 @@
       <screen x="0" y="0" width="1234" height="775" />
     </state>
     <state x="374" y="287" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1234.775@0.0.1234.775" timestamp="1643855329001" />
+    <state x="280" y="96" width="672" height="678" key="search.everywhere.popup" timestamp="1643876385304">
+      <screen x="0" y="0" width="1234" height="775" />
+    </state>
+    <state x="280" y="96" width="672" height="678" key="search.everywhere.popup/0.0.1234.775@0.0.1234.775" timestamp="1643876385304" />
   </component>
 </project>
