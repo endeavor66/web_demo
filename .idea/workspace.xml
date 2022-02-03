@@ -24,9 +24,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9c48f87-3db0-4ffd-a80f-563dba57186d" name="Default" comment="first commit">
+    <list default="true" id="f9c48f87-3db0-4ffd-a80f-563dba57186d" name="Default" comment="测试钩子函数">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,7 +337,7 @@
       <workItem from="1604410380689" duration="401000" />
       <workItem from="1643854814826" duration="282000" />
       <workItem from="1643855119328" duration="1706000" />
-      <workItem from="1643872872891" duration="1240000" />
+      <workItem from="1643872872891" duration="1868000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目提交">
       <created>1575274304059</created>
@@ -508,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643876393479</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="测试钩子函数">
+      <created>1643876990782</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1643876990782</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +553,8 @@
     <MESSAGE value="加入代码审查的脚本" />
     <MESSAGE value="first commit" />
     <MESSAGE value="加入添加用户功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入添加用户功能" />
+    <MESSAGE value="测试钩子函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试钩子函数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="0" key="#Project_Structure" timestamp="1643854851238">
@@ -618,10 +625,10 @@
       <screen x="0" y="0" width="1234" height="775" />
     </state>
     <state x="119" y="32" key="SettingsEditor/0.0.1234.775@0.0.1234.775" timestamp="1643855145074" />
-    <state x="210" y="120" key="Vcs.Push.Dialog.v2" timestamp="1643876441077">
+    <state x="210" y="120" key="Vcs.Push.Dialog.v2" timestamp="1643877003167">
       <screen x="0" y="0" width="1234" height="775" />
     </state>
-    <state x="210" y="120" key="Vcs.Push.Dialog.v2/0.0.1234.775@0.0.1234.775" timestamp="1643876441077" />
+    <state x="210" y="120" key="Vcs.Push.Dialog.v2/0.0.1234.775@0.0.1234.775" timestamp="1643877003167" />
     <state x="429" y="248" key="git4idea.rebase.GitRebaseDialog" timestamp="1643855085729">
       <screen x="0" y="0" width="1234" height="775" />
     </state>

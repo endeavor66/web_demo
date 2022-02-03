@@ -19,6 +19,13 @@ public class HelloServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        // 模拟错误
+        int i = 1/0;
+
+        // 模拟冗余
+        int a = 1;
+        a = 2;
+
         resp.getWriter().write("hello Servlet!");
     }
 }
