@@ -1,10 +1,10 @@
-def git-auth="faaf8dd2-ff5c-4588-aca5-b0cd56df51de"
+def git_auth="faaf8dd2-ff5c-4588-aca5-b0cd56df51de"
 
 pipeline {
    stages {
       stage('pull code') {
           steps {
-              checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: "${git-auth}", url: 'git@github.com:endeavor66/web_demo.git']]])
+              checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: "${git_auth}", url: 'git@github.com:endeavor66/web_demo.git']]])
           }
       }
       stage('code checking') {
