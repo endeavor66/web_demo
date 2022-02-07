@@ -1,6 +1,8 @@
 def git_auth="faaf8dd2-ff5c-4588-aca5-b0cd56df51de"
 
 pipeline {
+   agent any
+
    stages {
       stage('pull code') {
           steps {
