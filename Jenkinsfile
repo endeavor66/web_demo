@@ -1,10 +1,10 @@
-pipeline {
-   agent any
+def git-auth="faaf8dd2-ff5c-4588-aca5-b0cd56df51de"
 
+pipeline {
    stages {
       stage('pull code') {
           steps {
-              checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'endeavor', url: 'git@github.com:endeavor66/web_demo.git']]])
+              checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: "${git-auth}", url: 'git@github.com:endeavor66/web_demo.git']]])
           }
       }
       stage('code checking') {
@@ -22,11 +22,6 @@ pipeline {
       stage('build project') {
           steps {
               sh 'mvn clean package'
-          }
-      }
-      stage('deploy project') {
-          steps {
-              deploy adapters: [tomcat8(credentialsId: '18ee569a-7f0c-408b-a4d4-4675dd891bc1', path: '', url: 'http://192.168.174.100:8080/')], contextPath: null, war: 'target/*.war'
           }
       }
    }
